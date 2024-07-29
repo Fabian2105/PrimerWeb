@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Skranji:wght@400;700&display=swap');
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     margin: 5px;
+  
+ 
+
   }
 
 header{
@@ -52,12 +56,49 @@ a:hover{
     };
 }
 
-div{
 
+.quehago{
     background-color: #333;
     font-family: 'Arial', sans-serif;
+    width: 800px; /*Ancho*/
+    height: 490px; /*Alto*/
+    position: absolute;
+    left: 500px;
+    top: 400px;
+    border-radius: 60px;
 }
-logo{
-    width: 50px;
-    height: 50px;
+.logo{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 400px;
 }
+
+.que{
+    position: absolute;
+    left: 120px;
+    top: 40px;
+}
+
+p{
+    font-family: "Skranji", system-ui;
+    font-size: 20px;
+    color: #f4f4f4;
+    position: absolute;
+    left: 120px;
+    top: 140px;
+    margin-right: 70px;
+}
+
+
+
+/*Ejemplo de movimientos de un div
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background: #536180;
+    position: absolute;
+    left: 1px;
+    top: 50px;
+}
+*/
