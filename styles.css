@@ -3,40 +3,29 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    margin: 5px;
-  
- 
-
   }
 
 header{
-    display: flex;
-    min-height: 70px;
     background-color: #17326d;
-    align-items: center;
-    padding: 10px;
+    height: 11em;
+    width: 118em;
 }
 
 nav{
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
     font-weight: bold;
 }
 
-h1{
-    color: #f4f4f4;
-    font-size: 45px;
+.barra{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin: -1em 2em 2em 28em;
 }
-
-ul li{
-    display: inline-block;
-    padding: 0px 20px;
+#lista{
+    margin-left: 6em;
+    font-size: 20px;
 }
-
 a{
     color: #f4f4f4;
     text-decoration: none;
@@ -46,26 +35,21 @@ a:hover{
     color: aqua;  /*Color en los botones cuando se pone el mouse*/
 }
 
-@media (max-width:700px){ /*Esto es para que el encabezado se adapte a una pantalla mas pequeña*/
-    header{
-        flex-direction: column;
-    }
 
-    nav{
-        padding: 10px 0px; 
-    };
-}
 
 
 .quehago{
     background-color: #333;
     font-family: 'Arial', sans-serif;
-    width: 800px; /*Ancho*/
-    height: 490px; /*Alto*/
-    position: absolute;
-    left: 500px;
-    top: 400px;
+    width: 30em; /*Ancho*/
+    height: 40em; /*Alto*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     border-radius: 60px;
+    margin: 9em 0px 0px 30em;
+    padding: 2em;
 }
 .logo{
     width: 500px;
@@ -75,21 +59,69 @@ a:hover{
 }
 
 .que{
-    position: absolute;
-    left: 120px;
-    top: 40px;
+    color: #f4f4f4;
+    font-size: 45px;
+    margin: auto;
+    font-family: "Skranji", system-ui;
 }
 
-p{
+.p1{
     font-family: "Skranji", system-ui;
     font-size: 20px;
     color: #f4f4f4;
-    position: absolute;
-    left: 120px;
-    top: 140px;
-    margin-right: 70px;
+    margin: 0px 2em 1em 2px;
 }
 
+.p2{
+    font-family: "Skranji", system-ui;
+    font-size: 20px;
+    color: #f4f4f4;
+    margin-bottom: 7em;
+}
+.Servicios{
+    background-color: #333;
+    font-family: 'Arial', sans-serif;
+    width: 30em; /*Ancho*/
+    height: 40em; /*Alto*/
+    border-radius: 60px;
+}
+
+.servicio{
+    padding: 2em 0px 1em 0px;
+    margin: 2em 2em 0em 3em;
+    color: #f4f4f4;
+    font-size: 45px;
+}
+.fabian{
+    font-family: "Skranji", system-ui;
+    color: #f4f4f4;
+    font-size: 45px;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+#dg{
+    margin-bottom: 3.5em;
+}
+
+.servi{
+    margin: 1em 1em 0px 4em;
+    font-family: "Skranji", system-ui;
+    color: #f4f4f4;
+    font-size: 18px;
+}
+
+.barra{
+    font-family: "Skranji", system-ui;
+    color: #f4f4f4;
+}
+
+.repair{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 1190px;
+    left: 530px;
+}
 
 
 /*Ejemplo de movimientos de un div
